@@ -505,9 +505,6 @@ footer {
         flex-direction: column;
     }
 
-    header, .vert-menu {
-        position: absolute;
-    }
 
     .vert-menu {
         display: none;
@@ -554,7 +551,7 @@ footer {
     }
 
     .banner-img {
-        margin-top: 200px;
+        margin-top: -20px;
         height: 300px;
     }
 

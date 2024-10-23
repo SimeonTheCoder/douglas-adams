@@ -82,17 +82,14 @@ main {
 
     width: 1600px;
     margin: auto;
-}
 
-.dirk main {
-    background-color: rgb(50, 50, 50);
-    box-shadow: rgba(255, 166, 0, 0.171) 0px 0px 400px 0px;
-}
-
-.dogulas main {
     background-color: transparent;
     box-shadow: transparent;
 }
+
+/* .dogulas main {
+    
+} */
 
 header {
     position: sticky;
@@ -193,7 +190,7 @@ section {
 }
 
 #douglas-img {
-    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.epicquotes.com%2Fwp-content%2Fuploads%2F2022%2F03%2FDouglas-Adams-Quotes--1200x675.png&f=1&nofb=1&ipt=9ed2219a78af6d8d3d890675acfc30f96e2bff87684fc04cd37ea3bea332f19a&ipo=images);
+    background: url(https://www.shutterstock.com/editorial/image-editorial/M1TdU4x8M2z1cd57ODEy/douglas-adams-440nw-150948b.jpg);
     
     background-size: cover;
     background-attachment: fixed;
@@ -220,7 +217,9 @@ section {
     height: 45vw;
     border-radius: 20px;
     margin-top: 10px;
-    margin-bottom: -20px;
+    margin-bottom: -200px;
+    z-index: -1;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
 }
 
 footer {
@@ -505,9 +504,6 @@ footer {
         flex-direction: column;
     }
 
-    header, .vert-menu {
-        position: absolute;
-    }
 
     .vert-menu {
         display: none;
@@ -554,7 +550,7 @@ footer {
     }
 
     .banner-img {
-        margin-top: 200px;
+        margin-top: -20px;
         height: 300px;
     }
 
